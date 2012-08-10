@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\cygwin\home\dave\projects\shouldly\Shouldly.nunit" total="81" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-08-10" time="18:00:07">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="XTAL" user="dave" user-domain="XTAL" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\cygwin\home\dave\projects\shouldly\Shouldly.nunit" executed="True" result="Success" success="True" time="1.825" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\cygwin\home\dave\projects\shouldly\src\Shouldly.Tests\bin\Debug\Shouldly.Tests.dll" executed="True" result="Success" success="True" time="1.810" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Shouldly" executed="True" result="Success" success="True" time="1.810" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.810" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="DifferenceHighlighterHelpersTests" executed="True" result="Success" success="True" time="0.733" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ArrayList_HighlightsDifference" executed="True" result="Success" success="True" time="0.047" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_BigList_ShowsLimitedNumberOfElements" executed="True" result="Success" success="True" time="0.624" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_BoolLists_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_DifferentTypes_DisplaysActualWithoutHighlight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_EnumLists_HighlightsDifference" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_GenericList_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_IntegerListsSameExceptOne_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListOfObjectWithEqualsDefined_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListOfObjectWithoutEqualsDefined_HighlightsEverythingAsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListsActualHasLessElements_HighlightsMissingElements" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListsActualHasMoreElements_HighlightsMissingElements" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListsSame_DisplaysActualWithoutHighlight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_ListsSameElementsInDifferentOrder_HighlightAllAsDifferent" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_NotEnumerables_DisplaysActualWithoutHighlight" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_PureEnumerable_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.DifferenceHighlighterHelpersTests.HighlightDifferencesBetween_StringLists_HighlightsDifference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldBeAndShouldNotBeSameAsTests" executed="True" result="Success" success="True" time="0.312" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldBeAndShouldNotBeSameAsTests.ShouldBeSameAs_WhenComparingBoxedValueType_WillThrow" executed="True" result="Success" success="True" time="0.296" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeAndShouldNotBeSameAsTests.ShouldBeSameAs_WhenDifferentReferences_ShouldThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeAndShouldNotBeSameAsTests.ShouldBeSameAs_WhenEqualListsButDifferentReferences_ShouldThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeAndShouldNotBeSameAsTests.ShouldBeSameAs_WhenSameReference_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldBeDictionaryTests" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldBeDictionaryTests.ShouldContainKey_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeDictionaryTests.ShouldContainKeyAndValue_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeDictionaryTests.ShouldContainKeyAndValue_WorkWithGuids" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeDictionaryTests.ShouldNotContainKey_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeDictionaryTests.ShouldNotContainValueForKey_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldBeEnumerableTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldBeEmpty_WhenEmpty_ShouldNotError" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldBeEmpty_WhenNotEmpty_ShouldError" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldBeEmpty_WhenNull_ShouldError" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WhenFalse_ShouldErrorWithMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WithNumbersWhenFalse_ShouldErrorWithMessage" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WithNumbersWhenTrue_ShouldAllowTolerance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WithPredicate_UsingObjectsShouldDisplayMeaningfulMessage" executed="True" result="Success" success="True" time="0.078" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WithPredicate_WhenFalse_ShouldErrorWithMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldContain_WithPredicate_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotBeEmpty_WhenEmpty_ShouldError" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotBeEmpty_WhenNotEmpty_ShouldNotError" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotBeEmpty_WhenNull_ShouldError" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotContain_WhenFalse_ShouldErrorWithMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotContain_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotContain_WithPredicate_WhenFalse_ShouldErrorWithMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeEnumerableTests.ShouldNotContain_WithPredicate_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldBeStringTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldBe_GivenCaseInsensitiveOptionAndStringsDifferingOnlyInCase_ShouldPass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldBe_GivenCaseSensitiveOptionAndStringsDifferingOnlyInCase_ShouldFail" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldBe_WithoutCaseSpecification" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldBeCloseTo_IsPrettyLoose" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldBeCloseTo_ShowsYouWhereTheStringsDiffer" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldEndWith_Should_Ignore_Case_And_Return_True_For_EZ_In_Cheez" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldEndWith_Should_Return_True_For_ez_In_Cheez" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldMatch_Should_Match_Based_On_RegEx_Pattern" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldStartWith_Should_Ignore_Case_And_Return_True_For_CH_In_Cheese" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeStringTests.ShouldStartWith_Should_Return_True_For_Ch_In_Cheese" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldBeTests" executed="True" result="Success" success="True" time="0.062" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldBeTests.Should_WithNumbers_ShouldAllowTolerance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_Action" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_EnumerableOfDoubles_ShouldAllowTolerance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_EnumerableTypesOfDifferentRuntimeTypes_ShouldShowDifferences" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_EnumerableValues_ShouldCompareItemsInEachEnumerable" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_Expression" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_GreaterThan" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_GreaterThanOrEqualTo" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_ShouldNotThrowWhenCalledOnANullEnumerableReference" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBe_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBeTypeOf_ShouldNotThrowForInheritance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBeTypeOf_ShouldNotThrowForStrings" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldBeTypeOfWithGenericParameter_ShouldNotThrowForStrings" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldNotBe_WhenTrue_ShouldNotThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldNotBeTypeOf_ShouldNotThrowForNonMatchingType" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldBeTests.ShouldNotBeTypeOfWithGenericParameter_ShouldNotThrowForNonMatchingTypes" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldlyMessageTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldlyMessageTests.CanGenerate" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyMessageTests.CanGenerateErrorMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyMessageTests.ShouldlyMessage_CanGenerateForOfTypeAssertion" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyMessageTests.ShouldlyMessage_PassedCollectionsWhichCanBeCompared_ShouldShowDifferences" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyMessageTests.ShouldlyMessage_PassedObjectsWhichCannotCompared_ShouldNotShowDifferences" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldlyRhinoTests" executed="True" result="Success" success="True" time="0.421" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldlyRhinoTests.OnShouldHaveBeenCalled_WhenCalled_ShouldPass" executed="True" result="Success" success="True" time="0.390" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyRhinoTests.OnShouldHaveBeenCalled_WhenNotCalled_ShouldFailWithOtherCallsShown" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldlyRhinoTests.OnShouldHaveBeenCalledWithVaraible_WhenNotCalled_ShouldFailWithOtherCallsShown" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldNotThrowTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldNotThrowTests.ShouldNotThrow_IfCallDoesNotThrow_ShouldDoNothing" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldNotThrowTests.ShouldNotThrow_IfCallThrows_ShouldShowException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ShouldThrowTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="Shouldly.Tests.ShouldThrowTests.ShouldThrow_WhenItDoesntThrow" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldThrowTests.ShouldThrow_WhenItThrowsCorrectException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="Shouldly.Tests.ShouldThrowTests.ShouldThrow_WhenItThrowsIncorrectException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
