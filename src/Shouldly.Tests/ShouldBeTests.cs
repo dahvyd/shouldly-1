@@ -138,163 +138,226 @@ namespace Shouldly.Tests
             "The provided expression should be 2 but was 1");
         }
 
+        [Test]
+        public void ShouldBe_ShortAndInt()
+        {
+            short shorty = 1;
+            shorty.ShouldBe(1);
+            shorty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldBe_UShortAndInt()
+        {
+            ushort shorty = 1;
+            shorty.ShouldBe(1);
+            shorty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldBe_ByteTypeAndInt()
+        {
+            byte bighty = 1;
+            bighty.ShouldBe(1);
+            bighty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldBe_SByteTypeAndInt()
+        {
+            sbyte bighty = 1;
+            bighty.ShouldBe(1);
+            bighty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldNotBe_ShortAndInt()
+        {
+            short shorty = 1;
+            shorty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldNotBe_UShortAndInt()
+        {
+            ushort shorty = 1;
+            shorty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldNotBe_ByteTypeAndInt()
+        {
+            byte bighty = 1;
+            bighty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldNotBe_SByteTypeAndInt()
+        {
+            sbyte bighty = 1;
+            bighty.ShouldNotBe(-1);
+        }
+
+        [Test]
+        public void ShouldNotBe_MyStructAndInt()
+        {
+            var myStruct = new MyStruct();
+            myStruct.ShouldNotBe(1);
+        }
+
 		[Test]
-		public void ShouldBe_ShortAndInt()
+		public void ShouldBe_NullableShortAndInt()
 		{
-			short shorty = 1;
+			short? shorty = 1;
 			shorty.ShouldBe(1);
-			shorty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldBe_UShortAndInt()
+		public void ShouldBe_NullableUShortAndInt()
 		{
-			ushort shorty = 1;
+			ushort? shorty = 1;
 			shorty.ShouldBe(1);
-			shorty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldBe_ByteTypeAndInt()
+		public void ShouldBe_NullableByteTypeAndInt()
 		{
-			byte bighty = 1;
+			byte? bighty = 1;
 			bighty.ShouldBe(1);
-			bighty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldBe_SByteTypeAndInt()
+		public void ShouldBe_NullableSByteTypeAndInt()
 		{
-			sbyte bighty = 1;
+			sbyte? bighty = 1;
 			bighty.ShouldBe(1);
-			bighty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldNotBe_ShortAndInt()
+		public void ShouldNotBe_NullableShortAndInt()
 		{
-			short shorty = 1;
+			short? shorty = 1;
 			shorty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldNotBe_UShortAndInt()
+		public void ShouldNotBe_NullableUShortAndInt()
 		{
-			ushort shorty = 1;
+			ushort? shorty = 1;
 			shorty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldNotBe_ByteTypeAndInt()
+		public void ShouldNotBe_NullableByteTypeAndInt()
 		{
-			byte bighty = 1;
+			byte? bighty = 1;
 			bighty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldNotBe_SByteTypeAndInt()
+		public void ShouldNotBe_NullableSByteTypeAndInt()
 		{
-			sbyte bighty = 1;
+			sbyte? bighty = 1;
 			bighty.ShouldNotBe(-1);
 		}
 
 		[Test]
-		public void ShouldNotBe_MyStructAndInt()
+		public void ShouldNotBe_NullableMyStructAndInt()
 		{
 			var myStruct = new MyStruct();
 			myStruct.ShouldNotBe(1);
 		}
+        
+        #region MyStruct
 
-		#region MyStruct
+        struct MyStruct : IConvertible
+        {
+            public TypeCode GetTypeCode()
+            {
+                throw new NotImplementedException();
+            }
 
-		struct MyStruct : IConvertible
-		{
-			public TypeCode GetTypeCode()
-			{
-				throw new NotImplementedException();
-			}
+            public bool ToBoolean(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public bool ToBoolean(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public byte ToByte(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public byte ToByte(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public char ToChar(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public char ToChar(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public DateTime ToDateTime(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public DateTime ToDateTime(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public decimal ToDecimal(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public decimal ToDecimal(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public double ToDouble(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public double ToDouble(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public short ToInt16(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public short ToInt16(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public int ToInt32(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public int ToInt32(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public long ToInt64(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public long ToInt64(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public sbyte ToSByte(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public sbyte ToSByte(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public float ToSingle(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public float ToSingle(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public string ToString(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public string ToString(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public object ToType(Type conversionType, IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public object ToType(Type conversionType, IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public ushort ToUInt16(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public ushort ToUInt16(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public uint ToUInt32(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
 
-			public uint ToUInt32(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
+            public ulong ToUInt64(IFormatProvider provider)
+            {
+                throw new NotImplementedException();
+            }
+        }
 
-			public ulong ToUInt64(IFormatProvider provider)
-			{
-				throw new NotImplementedException();
-			}
-		}
-
-		#endregion
-	}
+        #endregion
+    }
 }
