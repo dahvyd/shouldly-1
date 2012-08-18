@@ -14,7 +14,7 @@ namespace Shouldly
             actual.AssertAwesomely(Is.EqualTo(expected), actual, expected);
         }
 
-        public static void ShouldBe<T>(this T actual, int expected)
+		public static void ShouldBe<T>(this T actual, int expected)
 			where T : struct, IConvertible
         {
             actual.AssertAwesomely(Is.EqualTo(expected), actual, expected);
@@ -24,6 +24,11 @@ namespace Shouldly
 			where T : struct, IConvertible
 		{
 			actual.AssertAwesomely(Is.EqualTo(expected), actual, expected);
+		}
+
+		public static void ShouldBe(this object actual, int expected)
+		{
+			actual.ShouldBe((object)expected);
 		}
 
         public static void ShouldBeTypeOf<T>(this object actual)
@@ -61,6 +66,11 @@ namespace Shouldly
 			where T : struct, IConvertible
 		{
 			actual.AssertAwesomely(Is.Not.EqualTo(expected), actual, expected);
+		}
+
+		public static void ShouldNotBe(this object actual, int expected)
+		{
+			actual.ShouldNotBe((object)expected);
 		}
 
         public static void ShouldBe(this float actual, float expected, double tolerance)

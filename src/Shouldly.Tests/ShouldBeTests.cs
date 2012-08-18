@@ -143,7 +143,6 @@ namespace Shouldly.Tests
         {
             short shorty = 1;
             shorty.ShouldBe(1);
-            shorty.ShouldNotBe(-1);
         }
 
         [Test]
@@ -151,7 +150,6 @@ namespace Shouldly.Tests
         {
             ushort shorty = 1;
             shorty.ShouldBe(1);
-            shorty.ShouldNotBe(-1);
         }
 
         [Test]
@@ -159,7 +157,6 @@ namespace Shouldly.Tests
         {
             byte bighty = 1;
             bighty.ShouldBe(1);
-            bighty.ShouldNotBe(-1);
         }
 
         [Test]
@@ -264,8 +261,22 @@ namespace Shouldly.Tests
 		[Test]
 		public void ShouldNotBe_NullableMyStructAndInt()
 		{
-			var myStruct = new MyStruct();
+			var myStruct = new MyStruct?();
 			myStruct.ShouldNotBe(1);
+		}
+
+		[Test]
+		public void ShouldBe_ObjectAndInt()
+		{
+			object one = 1;
+			one.ShouldBe(1);
+		}
+
+		[Test]
+		public void ShouldNotBe_ObjectAndInt()
+		{
+			object one = 1;
+			one.ShouldNotBe(2);
 		}
         
         #region MyStruct
